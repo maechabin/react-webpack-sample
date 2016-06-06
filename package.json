@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack --watch",
-    "build": "webpack --config webpack-production.config.js -p" 
+    "watch": "webpack --watch --progress --colors",
+    "build": "webpack --config webpack-production.config.js -p"
   },
   "author": "",
   "license": "ISC",
