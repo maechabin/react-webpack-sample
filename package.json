@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "webpack --watch --progress --colors",
-    "build": "webpack --config webpack-production.config.js -p"
+    "build": "webpack --config webpack-production.config.js -p --progress"
   },
   "author": "",
   "license": "ISC",

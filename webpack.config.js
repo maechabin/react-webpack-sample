@@ -1,14 +1,18 @@
 module.exports = {
-  entry: "./src/app.js",
+  entry: './src/app.js',
   output: {
-    path: "./dist",
-    filename: "bundle.js"
+    path: './dist',
+    filename: 'bundle.js'
   },
-  /* ソースマップを出力させる場合は以下を追加 */
-  devtool: "inline-source-map",
+  /* ソースマップをファイル内に出力させる場合は以下を追加 */
+  devtool: 'inline-source-map',
   module: {
     loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      }
     ]
   }
 };
